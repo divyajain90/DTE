@@ -1,0 +1,18 @@
+//
+//  DTEApp.pch
+//  DTE
+//
+//  Created by Divya Jain on 5/1/17.
+//  Copyright © 2017 Divya Jain. All rights reserved.
+//
+
+#ifndef DTEApp_pch
+#define DTEApp_pch
+#import "BaseClass.h"
+#import <AFNetworking/AFNetworking.h>
+#import "APIManager.h"
+#import "Utility.h"
+#import "KeychainItemWrapper.h"
+#import "DTEConstants.h"
+#import "User.h"
+#endif /* DTEApp_pch */
