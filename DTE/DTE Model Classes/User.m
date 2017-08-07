@@ -60,7 +60,6 @@
         shippingAddress=nil;
         billingAddress= nil;
         self.isLoggedIn = false;
-        NSLog(@"Hello World");
 
     }
     return self;
