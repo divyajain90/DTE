@@ -60,7 +60,7 @@
         shippingAddress=nil;
         billingAddress= nil;
         self.isLoggedIn = false;
-
+        NSLog(@"Working branch");
     }
     return self;
 }
