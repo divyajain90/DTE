@@ -320,11 +320,7 @@
         }
         else
             [self showAlertTitle:@"" message:[error localizedDescription]];
-        
     }];
-    
-    
-    
     
 }
 

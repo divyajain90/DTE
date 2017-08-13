@@ -103,6 +103,14 @@
 }];
 }
 
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if ([segue.identifier isEqualToString:@"productDetailSegue"])
+    {
+        ProductDetail *vc = segue.destinationViewController;
+        vc.product = sender;
+    }
+}
 #pragma mark - Actions
 - (IBAction)BackAction:(id)sender {
 //    [self dismissViewControllerAnimated:YES completion:nil];
